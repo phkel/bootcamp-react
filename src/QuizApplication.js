@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
+import LoadingState from './components/LoadingState.js';
 
 const axios = require('axios');
 
@@ -75,7 +76,7 @@ class QuizApplication extends React.Component {
         const {answers} = this.state.questionData;
 
         if(!question){
-          return 'please wait';
+          return <LoadingState/>;
         }
 
         return (

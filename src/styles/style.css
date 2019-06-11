@@ -1,26 +1,11 @@
 body {
-  padding: 20px;
+  padding: 0px;
   margin: 0;
 }
 h1, h2, p, ul, li {
   font-family: sans-serif;
 }
-ul.menu li {
-  display: inline;
-  list-style-type: none;
-  margin: 0;
-}
-ul.menu {
-  background-color: #323232;
-  padding: 0;
-}
-ul.menu li a {
-  color: #FFF;
-  text-decoration: none;
-  padding: 20px;
-  display: inline-block;
-  justify-content: space-between;
-}
+
 .content {
   background-color: #FFF;
   padding: 20px;
@@ -55,7 +40,3 @@ button {
   font-size: 14px;
 }
 
-#logo {
-  max-height: 200px;
-  background-color: #323232;
-}
