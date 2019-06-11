@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import LikeButton from './components/LikeButton';
-import QuizApplication from './QuizApplication';
+import App from './router';
+import './styles/style.css';
 
-ReactDOM.render(<QuizApplication/>, document.getElementById("root"));
+ReactDOM.render(<App/>, document.getElementById("root"));
