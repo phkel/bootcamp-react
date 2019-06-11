@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
+import './styles/deviceApplication.css';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
-import LoadingState from './components/LoadingState.js';
 
 const axios = require('axios');
 
@@ -28,7 +28,7 @@ class DeviceApplication extends React.Component {
       const {img} = this.state.deviceData;
 
       if(!name){
-        return <LoadingState/>;
+        return 'please wait';
       }
 
         return (
