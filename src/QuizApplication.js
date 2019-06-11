@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import LoadingState from './components/LoadingState.js';
+import FinalView from './components/FinalView.js';
 
 const axios = require('axios');
 
