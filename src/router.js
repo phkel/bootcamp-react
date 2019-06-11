@@ -1,14 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Home from './Home';
-import QuizApplication from './QuizApplication';
-import DeviceApplication from './DeviceApplication';
-import Header from "./components/Header"
-function ApplicationRouter() {
+import Home from "./components/HomePage";
+import QuizApplication from "./QuizApplication";
+import DeviceApplication from "./DeviceApplication";
+import Header from "./components/Header";
+
+function App() {
   return (
     <Router>
       <div>
-        <Header/>
+        <Header />
 
         <Route exact path="/" component={Home} />
         <Route path="/quiz" component={QuizApplication} />
@@ -18,4 +19,4 @@ function ApplicationRouter() {
   );
 }
 
-export default ApplicationRouter;
+export default App;
