@@ -11,7 +11,7 @@ body .scene_titan .eyes .eye, body .scene_saturn__face .face_clip .eye, body .sc
 body .scene_titan .eyes .eye, body .scene_saturn__face .face_clip .eye {
   width: 6px;
   height: 6px;
-  background: ##ffffff;
+  background: #53487a;
   border-radius: 10px;
   bottom: 34px;
   -webkit-animation: blink 1s 0s infinite linear;
@@ -25,7 +25,7 @@ body .scene_titan .eyes .eye--right.eye, body .scene_saturn__face .face_clip .ey
 }
 
 body {
-  background: #38216b;
+  background: #ffffff;
 }
 body .scene {
   -webkit-perspective: 2600px;
@@ -52,7 +52,7 @@ body .scene_titan {
   width: 84px;
   height: 84px;
   border-radius: 42px;
-  background: #ffffff;
+  background: #a5c6ff;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   box-shadow: 0px 0px 0px 4px rgba(169, 187, 236, 0.3882352941) inset, -30px -20px 50px #637bff inset;
@@ -117,7 +117,7 @@ body .scene_saturn__face .face_clip .mouth {
   width: 15px;
   height: 10px;
   top: -5px;
-  background: #ffffff;
+  background: #ea0e61;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   box-shadow: 0 6px 0px #53487a inset;
