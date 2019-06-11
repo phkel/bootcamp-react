@@ -6,6 +6,10 @@ body {
     "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.header {
+.devices {
   display: flex;
+}
+
+.device__img {
+  max-width: 100%;
 }
