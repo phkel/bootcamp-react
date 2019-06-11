@@ -2,8 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from './Home';
 import QuizApplication from './QuizApplication';
-import DeviceApplication from './DeviceApplication';
+import DeviceApplication from './components/DeviceView';
 import logo from './images/logo.png';
+
 
 function ApplicationRouter() {
   return (
@@ -26,7 +27,7 @@ function ApplicationRouter() {
 
         <Route exact path="/" component={Home} />
         <Route path="/quiz" component={QuizApplication} />
-        <Route path="/device" component={DeviceApplication} />
+        <Route path="/device" component={DeviceView} />
       </div>
     </Router>
   );
