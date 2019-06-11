@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import './styles/deviceApplication.css';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 
@@ -11,7 +12,7 @@ class DeviceApplication extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('https://www.mocky.io/v2/5cf7bab73000000d00a37ef1?mocky-delay=1000ms')
+    axios.get('https://www.mocky.io/v2/5cf7bab73000000d00a37ef1?mocky-delay=2000ms')
       .then((response) => {
       this.setState({
         deviceData: response.data
@@ -21,7 +22,7 @@ class DeviceApplication extends React.Component {
 
   render () {
 
-      //const {id} = this.state.deviceData;
+      const {id} = this.state.deviceData;
       const {name} = this.state.deviceData;
       const {text} = this.state.deviceData;
       const {img} = this.state.deviceData;
