@@ -1,0 +1,38 @@
+.menu {
+    background-color: #2f2f2f;
+    background-image: url(../images/bg-shape-4.svg);
+    padding: 0;
+  }
+  
+  .menu li {
+    color: #FFF;
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+  }
+  
+  .menu__items{
+      width: 100%;
+      display: flexbox;
+      justify-content: center;
+  }
+  .menu li a {
+      color: #FFF;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    justify-content: space-between;
+  }
+  .menu__items li a:hover{
+      border-bottom: 1vh solid #00e6c8;
+      color: #FFF !important;
+  }
+
+  .menu__items:hover li a{
+    color: rgba(255,255,255, 0.3);
+    
+}
+  
+  #logo {
+    max-height: 200px;
+  }
