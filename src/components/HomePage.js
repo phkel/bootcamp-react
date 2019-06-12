@@ -1,8 +1,21 @@
 import React, { Component, Fragment } from "react";
-import "../styles/main.css";
-import mockimg from "../images/mock-img.jpg";
+import "
 
-class HomePage extends Component {
+
+../styles/main.css";
+import mockimg from "../images/mock-im
+
+
+
+g.jpg";
+
+class 
+  
+  
+  HomePage 
+  
+  
+  extends Component {
   constructor(props) {
     super(props);
     this.state = {};
