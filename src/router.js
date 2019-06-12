@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from "./components/HomePage";
-import QuizApplication from "./QuizApplication";
+import QuizView from "./components/QuizView";
 import DeviceApplication from "./DeviceApplication";
 import Header from "./components/Header";
 
@@ -12,7 +12,7 @@ function App() {
         <Header />
 
         <Route exact path="/" component={Home} />
-        <Route path="/quiz" component={QuizApplication} />
+        <Route path="/quiz" component={QuizView} />
         <Route path="/device" component={DeviceApplication} />
       </div>
     </Router>
